@@ -1,0 +1,85 @@
+{
+	"name": "UnisonSync",
+	"displayName": "Unison Sync",
+	"description": "Runs unison sync on file save.",
+	"icon": "images/save-icon.png",
+	"galleryBanner": {
+		"color": "#5c2d91",
+		"theme": "light"
+	},
+	"version": "0.1.0",
+	"publisher": "josegonzalez",
+	"license": "Apache-2.0",
+	"homepage": "https://github.com/josegonzalez/vscode-unison/blob/master/README.md",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/josegonzalez/vscode-unison-sync.git"
+	},
+	"bugs": {
+		"url": "https://github.com/josegonzalez/vscode-unison-sync/issues"
+	},
+	"engines": {
+		"vscode": "^0.10.1"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"*"
+	],
+	"main": "./out/src/extension",
+	"contributes": {
+		"commands": [
+			{
+				"command": "josegonzalez.unison-sync.enableUnisonSync",
+				"title": "Run On Save: Enable"
+			},
+			{
+				"command": "josegonzalez.unison-sync.disableUnisonSync",
+				"title": "Run On Save: Disable"
+			}
+		],
+		"configuration": {
+			"title": "Unison command configuration.",
+			"type": "object",
+			"properties": {
+				"josegonzalez.unison-sync": {
+					"type": "object",
+					"properties": {
+						"autoClearConsole": {
+							"type": "boolean",
+							"description": "Automatically clear the console on each save before running commands.",
+							"default": false
+						},
+						"profile": {
+							"type": "string",
+							"description": "The name of a profile to use for syncing (takes precedence over remote option)"
+						},
+						"remote": {
+							"type": "string",
+							"description": "A remote path to sync"
+						},
+						"shell": {
+							"type": "string",
+							"description": "Shell to execute the command with (gets passed to child_process.exec as an options arg. e.g. child_process(cmd, { shell })."
+						}
+					}
+				}
+			}
+		}
+	},
+	"scripts": {
+		"vscode:prepublish": "tsc -p ./",
+		"compile": "tsc -watch -p ./",
+		"postinstall": "node ./node_modules/vscode/bin/install"
+	},
+	"devDependencies": {
+		"@types/mocha": "^5.2.5",
+		"@types/node": "^10.14.12",
+		"typescript": "^3.3.1",
+		"vscode": "^1.1.28"
+	},
+	"dependencies": {
+		"@types/vscode": "^1.36.0"
+	}
+}
