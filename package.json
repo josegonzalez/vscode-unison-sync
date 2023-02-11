@@ -2,7 +2,7 @@
 	"name": "UnisonSync",
 	"displayName": "Unison Sync",
 	"description": "Runs unison sync on file save.",
-	"icon": "images/save-icon.png",
+	"icon": "images/upload-in-cloud.png",
 	"galleryBanner": {
 		"color": "#5c2d91",
 		"theme": "light"
