@@ -1,6 +1,9 @@
 # Unison Sync for Visual Studio Code
 This extension allows running `unison` against a remote server.
 
+> **Note**
+> Inspired by [vscode-runonsave](https://github.com/emeraldwalk/vscode-runonsave).
+
 > **Important**
 > Both the local and remote server _must_ have unison installed and the version _should_ be the same to avoid issues.
 
