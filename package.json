@@ -1,5 +1,5 @@
 {
-	"name": "UnisonSync",
+	"name": "unison-sync",
 	"displayName": "Unison Sync",
 	"description": "Runs unison sync on file save.",
 	"icon": "images/upload-in-cloud.png",
