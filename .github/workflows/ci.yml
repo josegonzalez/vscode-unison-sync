@@ -1,5 +1,5 @@
 ---
-name: Release Extension
+name: CI
 
 # yamllint disable-line rule:truthy
 on:
@@ -11,7 +11,7 @@ on:
       - 'master'
 
 jobs:
-  release:
+  ci:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
