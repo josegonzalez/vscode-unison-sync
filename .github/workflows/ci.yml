@@ -19,4 +19,5 @@ jobs:
         with:
           node-version: 14
       - run: npm ci
+      - run: npm install -g vsce
       - run: vsce publish
