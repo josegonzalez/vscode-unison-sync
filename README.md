@@ -34,4 +34,5 @@ The following commands are exposed in the command palette:
 
 ## License
 
-[Apache](https://github.com/josegonzalez/vscode-vscode-unison/blob/master/LICENSE)
+- [Apache](https://github.com/josegonzalez/vscode-vscode-unison/blob/master/LICENSE)
+- [Upload in Cloud Icon](https://iconscout.com/icons/upload-in-cloud) by [Amit Jakhu](https://iconscout.com/contributors/amit-jakhu) on [IconScout](https://iconscout.com).
