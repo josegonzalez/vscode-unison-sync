@@ -27,24 +27,6 @@ The following commands are exposed in the command palette:
 * On Save: Enable
 * On Save: Disable
 
-## Placeholder Tokens
-
-Commands support placeholders similar to tasks.json.
-
-* ${workspaceRoot}: DEPRECATED use ${workspaceFolder} instead
-* ${workspaceFolder}: the path of the workspace folder of the saved file
-* ${file}: path of saved file
-* ${fileBasename}: saved file's basename
-* ${fileDirname}: directory name of saved file
-* ${fileExtname}: extension (including .) of saved file
-* ${fileBasenameNoExt}: saved file's basename without extension
-* ${relativeFile} - the current opened file relative to ${workspaceFolder}
-* ${cwd}: current working directory (this is the working directory that vscode is running in not the project directory)
-
-### Environment Variable Tokens
-
-* ${env.Name}
-
 ## Links
 
 * [Marketplace](https://marketplace.visualstudio.com/items/josegonzalez.UnisonSync)
