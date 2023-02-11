@@ -29,7 +29,8 @@ The following commands are exposed in the command palette:
 
 ## Links
 
-* [Marketplace](https://marketplace.visualstudio.com/items/josegonzalez.UnisonSync)
+* [Marketplace](https://marketplace.visualstudio.com/items/josegonzalez.unison-sync)
+* [OpenVSX](https://open-vsx.org/extension/josegonzalez/unison-sync)
 * [Source Code](https://github.com/josegonzalez/vscode-unison)
 
 ## License
